@@ -1,3 +1,9 @@
+libdigest-sha1-perl (2.13-1~gekkio1~precise2) precise; urgency=low
+
+  * Relax debhelper version requirement
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Mon, 24 Mar 2014 14:19:28 +0200
+
 libdigest-sha1-perl (2.13-1~gekkio1~precise1) precise; urgency=low
 
   * Backport to Precise.
