@@ -1,0 +1,26 @@
+Source: libdigest-sha1-perl
+Section: perl
+Priority: optional
+Maintainer: Joonas Javanainen <joonas.javanainen@gmail.com>
+Build-Depends: debhelper (>= 9.20120312),
+ perl
+Standards-Version: 3.9.4
+Homepage: https://metacpan.org/release/Digest-SHA1
+
+Package: libdigest-sha1-perl
+Architecture: any
+Depends: ${misc:Depends}, ${perl:Depends}, ${shlibs:Depends}
+Description: Perl interface to the SHA-1 algorithm
+ The Digest::SHA1 module allows you to use the NIST SHA-1 message digest
+ algorithm from within Perl programs. The algorithm takes as input a message
+ of arbitrary length and produces as output a 160-bit "fingerprint" or
+ "message digest" of the input.
+ .
+ In 2005, security flaws were identified in SHA-1, namely that a possible
+ mathematical weakness might exist, indicating that a stronger hash function
+ would be desirable. The Digest::SHA module implements the stronger algorithms
+ in the SHA family.
+ .
+ The Digest::SHA1 module provide a procedural interface for simple use, as
+ well as an object oriented interface that can handle messages of arbitrary
+ length and which can read files directly.

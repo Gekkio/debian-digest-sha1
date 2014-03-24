@@ -1,0 +1,5 @@
+libdigest-sha1-perl (2.13-1~gekkio1) trusty; urgency=low
+
+  * Initial Release.
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Mon, 24 Mar 2014 13:17:54 +0200
