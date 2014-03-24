@@ -1,3 +1,9 @@
+libdigest-sha1-perl (2.13-1~gekkio1~saucy1) saucy; urgency=low
+
+  * Backport to Saucy.
+
+ -- Joonas Javanainen <joonas.javanainen@gmail.com>  Mon, 24 Mar 2014 14:06:15 +0200
+
 libdigest-sha1-perl (2.13-1~gekkio1) trusty; urgency=low
 
   * Initial Release.
